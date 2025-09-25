@@ -1,0 +1,9 @@
+v = [3, 5, 1, 4, 8]
+pos = 0
+ac = 0
+
+while pos < len(v):
+    ac = ac + v[pos]
+    pos = pos + 1
+
+print("La suma es", ac)
