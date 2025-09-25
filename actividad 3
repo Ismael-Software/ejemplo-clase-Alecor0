@@ -1,0 +1,10 @@
+cantidad = int(input("¿Cuántos números deseas ingresar? "))
+v = []
+pos = 0
+
+while pos < cantidad:
+    numero = int(input(f"Introduce el número {pos + 1}: "))
+    v.append(numero)
+    pos = pos + 1
+
+print("La lista creada es:", v)

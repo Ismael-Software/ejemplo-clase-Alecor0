@@ -1,0 +1,10 @@
+v = [3, 5, 1, 4, 8]
+pos = 1
+mayor = v[0]
+
+while pos < len(v):
+    if v[pos] > mayor:
+        mayor = v[pos]
+    pos = pos + 1
+
+print("El número mayor es", mayor)
